@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiranara Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kiranara Store</h1>
+        <button id="toggle-dark-mode">Toggle Dark Mode</button>
+    </header>
+
+    <main>
+        <div class="product" id="product1">
+            <img src="images/product1.jpg" alt="Product 1">
+            <h2>Product 1</h2>
+            <p>Price: ₹500</p>
+            <button class="buy-now" onclick="buyNow('Product 1', 500)">Buy Now on WhatsApp</button>
+            <button class="add-to-cart" onclick="addToCart('Product 1', 500)">Add to Cart</button>
+        </div>
+        <!-- Repeat for more products -->
+    </main>
+
+    <footer>
+        <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" target="_blank">Checkout via Google Form</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
